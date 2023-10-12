@@ -1,0 +1,66 @@
+
+html {
+    height: 100%;
+    margin: auto;
+    overflow: auto;
+
+  }
+
+  body {
+    background-color: #BF9A78;
+    margin: 0;
+    font-family: sans-serif;
+  }
+
+  .hero {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(https://veracruz.uo.edu.mx/sites/default/files/panes-mexico.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .hero h1 {
+    font-size: 5em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+  }
+
+  .hero .btn {
+    display: block;
+    width: 200px;
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 45px;
+    background-color: #F23064;
+    border: none;
+    color: white;
+    font-size:  1.5em;
+  }
+ 
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 30px;
+    max-height: 50%;
+  }
+
+  @media(max-width: 991px){
+    .sidebar{
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px); 
+    }
+  }
+
