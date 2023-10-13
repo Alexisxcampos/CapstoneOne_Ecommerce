@@ -23,6 +23,12 @@ html {
     font-family: 'Courier New', Courier, monospace;
   }
 
+  #one {
+    color: #027353;
+    font-size: 80px; 
+    font-family:'Courier New', Courier, monospace
+  }
+
   h2 {
     font-family:'Courier New', Courier, monospace
   }
