@@ -1,125 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/styles.css" />
-    <title>Dulce Derecho</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Dulce Derecho - Sign Up</title>
+  <link rel="icon" href="images/tamale.png">
 </head>
+
 <body class="vh-100 overflow-scroll">
-    
-    <!--Navbar-->
 
-    <nav class="navbar navbar-light navbar-expand-lg bg-transparent" style="background-color: #F23064">
-        <div class="container">
-        <!--Logo--> 
-          <a class="navbar-brand fs-4" href="./index.html">Dulce Derecho</a>
-        <!--Toggle Button-->
-          <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+  <!--Navbar-->
 
-          <!--SideBar-->
-          <div class="sidebar offcanvas offcanvas-start tabindex=-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            
-          <!--Sidebar Header-->            
-            <div class="offcanvas-header text-white border-bottom">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-              <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-          <!--Sidebar Body-->
-            <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
-              <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
-                </li>
-                <li class="nav-item mx-2">
-                  <a class="nav-link" href="/shop.html">Shop</a>
-                </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="/mycart.html">My Cart</a>
-                </li>
-              </ul>
-            <!-- Login/ Sign Up -->
-            <div class="d-flex flex-column flex-lg-row align-items-center gap-3">
-              <a href="/login.html" class="text-white">Login</a>
-              <a href="/signup.html" class="text-white text-decoration-none px-3 py-1 rounded-4" style="background-color: #F23064;">Sign Up</a>
-            </div>
-            </div>
+  <nav class="navbar navbar-light navbar-expand-lg bg-transparent" style="background-color: #F23064">
+    <div class="container">
+      <!--Logo-->
+      <a class="navbar-brand fs-4" href="index.html"><img src="images/tamale.png" alt="tamale logo" width="30"
+          height="24">Dulce Derecho</a>
+      <!--Toggle Button-->
+      <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!--SideBar-->
+      <div class="sidebar offcanvas offcanvas-start tabindex=-1" id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel">
+
+        <!--Sidebar Header-->
+        <div class="offcanvas-header text-white border-bottom">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+          <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <!--Sidebar Body-->
+        <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+          <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link active" href="shop.html">Shop</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link active" href="mycart.html">My Cart</a>
+            </li>
+          </ul>
+          <!-- Login/ Sign Up -->
+          <div class="d-flex flex-column flex-lg-row align-items-center gap-3">
+            <a href="login.html" style="color: #F23064;">Login</a>
+            <a href="signup.html" class="text-white text-decoration-none px-3 py-1 rounded-4"
+              style="background-color: #F23064;">Sign Up</a>
           </div>
         </div>
-      </nav>
+      </div>
+    </div>
+  </nav>
 
-      <section class="hero">
-        <div class="hero-inner">
-            <h1>DULCE DERECHO</h1>
-            <h2>Tasty sweets</h2>
-            <a href="/shop.html" class="btn">Order now</a>
-        </div>
-    </section>
+  <section class="hero">
+    <div class="hero-inner">
+      <h1>DULCE DERECHO</h1>
+      <h2>Tasty sweets</h2>
+      <a href="shop.html" class="btn">Order now</a>
+    </div>
+  </section>
 
-    <body>
-      <!--Registration Form-->
-      <div class="container mt-5">
-          <div class="row justify-content-center">
-              <div class="col-md-6 bg-secondary pt-5 rounded-3">
-                  <form>
-                      <div class="form-group px-5">
-                          <label for="inputEmail3" class="col-sm-2 col-form-label">Username</label>
-                          <input type="username" class="form-control" id="inputUsername3">
-                          <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-                          <input type="email" class="form-control" id="inputEmail3">
-                          <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
-                          <input type="password" class="form-control" id="inputPassword3">
-                          <label for="inputPassword3" class="col-sm-2 col-form-label">Confirm Password</label>
-                          <input type="password" class="form-control" id="inputPassword3">
-                                  <legend class="col-form-label text-center mt-2 pt-0">How did you hear about us?</legend>
-                              <fieldset class="row mb-3">
-                                  <div class="col-md-10 col-sm-5">
-                                      <div class="form-check">
-                                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
-                                              value="option1" checked>
-                                          <label class="form-check-label" for="gridRadios1">
-                                               Search engine (Google, Yahoo, etc.)
-                                          </label>
-                                      </div>
-                                  <div class="form-check">
-                                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
-                                          value="option2">
-                                      <label class="form-check-label" for="gridRadios2">
-                                          Televison ad
-                                      </label>
-                                  </div>
-                                  <div class="form-check disabled">
-                                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3"
-                                          value="option3">
-                                      <label class="form-check-label" for="gridRadios3">
-                                          Social media
-                                      </label>
-                                  </div>
-                                  <div class="form-check disabled">
-                                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3"
-                                          value="option3">
-                                      <label class="form-check-label" for="gridRadios3">
-                                          Blog or publication
-                                      </label>
-                                  </div>
-                              </fieldset>
-                          <div class="text-center mt-5">
-                              <button type="submit" class="btn btn-primary mb-5" style="background-color: #F23064; border: none; ">Register account</button>
-                          </div>
-                      </div>
-                  </form>
+  <!--Registration Form-->
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6 pt-5 rounded-3 border">
+        <!--Begining of Form-->
+        <form>
+          <div class="form-group px-5">
+            <!--Username-->
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Username</label>
+            <input type="text" class="form-control" id="inputUsername3">
+            <!--Email-->
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail3">
+            <!--Password-->
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword3">
+            <!--Confirm Password-->
+            <label for="inputPassword3s" class="col-sm-3 col-form-label">Confirm Password</label>
+            <input type="password" class="form-control" id="inputPassword3s">
+            <!--Registration Question-->
+            <aside class="col-form-label text-center mt-2 pt-0">How did you hear about us?</aside>
+            <fieldset class="row mb-3">
+              <div class="col-md-10 col-sm-5">
+                <!--selection buton 1 for registration question-->
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1"
+                    checked>
+                  <label class="form-check-label" for="gridRadios1">
+                    Search engine (Google, Yahoo, etc.)
+                  </label>
+                </div>
+                <!--selection buton for registration question-->
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                  <label class="form-check-label" for="gridRadios2">
+                    Televison ad
+                  </label>
+                </div>
+                <!--selection buton for registration question-->
+                <div class="form-check disabled">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                  <label class="form-check-label" for="gridRadios3">
+                    Social media
+                  </label>
+                </div>
+                <!--selection buton for registration question-->
+                <div class="form-check disabled">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios4" value="option3">
+                  <label class="form-check-label" for="gridRadios4">
+                    Blog or publication
+                  </label>
+                </div>
               </div>
           </div>
+          </fieldset>
+          <!--Register Button-->
+          <div class="text-center mt-5">
+            <button type="submit" class="btn btn-primary mb-5"
+              style="background-color: #F23064; border: none; ">Register account</button>
+          </div>
       </div>
-    <footer>
-    </footer>
+      </form>
+    </div>
+  </div>
+  </div>
+  <footer>
+  </footer>
 </body>
+
 </html>

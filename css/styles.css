@@ -1,3 +1,8 @@
+/*CSS reset */
+* { 
+    margin:0;
+    padding:0;
+}
 
 html {
     height: 100%;
@@ -7,14 +12,29 @@ html {
   }
 
   body {
-    background-color: #BF9A78;
     margin: 0;
     font-family: sans-serif;
   }
 
+  /* I changed the font on Nav bar and Hero Image */
+
+  h1 {
+    color: #027353;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  h2 {
+    font-family:'Courier New', Courier, monospace
+  }
+
+  .navbar-brand {
+    font-family: 'Courier New', Courier, monospace
+  }
+
+  /* Hero Image */
   .hero {
-    width: 100vw;
-    height: 50vh;
+    width: 100vw; /*Viewport Width*/
+    height: 50vh; /*Viewport Height*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,6 +67,7 @@ html {
     font-size:  1.5em;
   }
  
+  /*I can't remember what these are for, but I'm terrified of taking them out*/
   .row {
     display: flex;
   }
@@ -57,10 +78,11 @@ html {
     max-height: 50%;
   }
 
+/* Responsive Nav Bar .. makes nav menu blurry*/
+
   @media(max-width: 991px){
     .sidebar{
         background-color: rgba(255, 255, 255, 0.15);
         backdrop-filter: blur(10px); 
     }
   }
-
